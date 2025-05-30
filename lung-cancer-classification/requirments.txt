@@ -1,0 +1,12 @@
+numpy
+tensorflow
+keras
+matplotlib              # Optional: for visualizing training results
+scikit-learn            # Optional: for evaluation metrics
+opencv-python           # Optional: for image preprocessing
+pillow                  # Required for image loading in Keras
+h5py                    # Required for saving/loading model weights
+
+# Transfer Learning support
+tensorflow-hub          # For models from TF Hub
+tensorflow-datasets     # For built-in datasets
