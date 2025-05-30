@@ -7,6 +7,7 @@ Waveform Feature Analysis: Li6 and Po Dataset
 
 Data Source
 The data originates from real-time experimental measurements conducted in laboratory settings by multiple students as part of nuclear physics research. The experiments captured multi-channel sensor signals representing particle interaction events. The raw signals were preprocessed and organized into compressed NumPy .npz files for efficient analysis.
+https://www.kaggle.com/datasets/atifkhan89/waveform-feature-analysis-li6-and-po
 
 Contents
 Loading and inspecting the Li6 and Po waveform datasets
