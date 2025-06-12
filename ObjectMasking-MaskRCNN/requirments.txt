@@ -1,0 +1,8 @@
+numpy
+opencv-python
+matplotlib
+tensorflow>=2.0
+keras
+pycocotools
+tqdm
+requests

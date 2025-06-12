@@ -1,0 +1,55 @@
+# ✈️ Airline Passenger Forecasting with LSTM & Bidirectional LSTM
+
+This project uses deep learning models (LSTM and Bidirectional LSTM) to forecast monthly airline passenger numbers. It compares the performance of a standard stacked LSTM model and a Bidirectional LSTM on the classic time-series dataset of international airline passengers from 1949 to 1960.
+
+---
+
+## 📂 Dataset
+
+- **Source**: [Jason Brownlee's Time Series Dataset Collection](https://raw.githubusercontent.com/jbrownlee/Datasets/master/airline-passengers.csv)
+- **Features**:
+  - `Month`: Monthly timestamp (1949–1960)
+  - `Passengers`: Number of international airline passengers
+
+---
+
+## 🔍 Features
+
+- Exploratory Data Analysis (EDA) with Seaborn and Matplotlib
+- Visualization of trends, seasonality, and rolling statistics
+- Min-Max normalization of data
+- Sequence-to-one time series transformation
+- Comparison of:
+  - ✅ Stacked LSTM
+  - ✅ Bidirectional LSTM
+- RMSE evaluation and forecast plotting
+
+---
+
+## 📈 Model Architectures
+
+### 🧠 Model 1: Stacked LSTM
+
+- 2 LSTM layers (50 units each)
+- Dense output layer
+
+### 🔁 Model 2: Bidirectional LSTM
+
+- 2 Bidirectional LSTM layers (50 units each)
+- Dense output layer
+
+---
+
+## 🧪 Evaluation Metric
+
+- **Root Mean Squared Error (RMSE)** on test set
+- Visual comparison of actual vs predicted passengers
+
+---
+
+## 📦 Requirements
+
+Install the necessary Python packages:
+
+```bash
+pip install -r requirements.txt
